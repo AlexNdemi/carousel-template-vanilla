@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Carousel</title>
+
+</head>
+<body>
+    <div class="carousel">
+        <button class="carousel__button carousel__button--left is-hidden">
+            <img src="images/left-arrow.png"/>
+        </button>
+        <div class="carousel__track-container">
+            <ul class="carousel__track" role="list">
+                <li class="carousel__slide current-slide">
+                    <img class="carousel__image" src="images/anchor.webp" alt=""/>
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="images/boat.webp" alt=""/>
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="images/fishing.webp" alt=""/>
+                </li>
+                <li class="carousel__slide">
+                    <img class="carousel__image" src="images/lighthouse.webp" alt=""/>
+                </li>
+                <li class="carousel__slide" >
+                    <img class="carousel__image" src="images/reef.webp"alt=""/>
+                </li>
+            </ul>
+        </div>
+        <button class="carousel__button carousel__button--right">
+            <img src="images/right-arrow.png"/>
+        </button>
+        <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+        </div>
+    </div>
+    <script src="./javascript/carousel.js"></script>
+</body>
+</html>
